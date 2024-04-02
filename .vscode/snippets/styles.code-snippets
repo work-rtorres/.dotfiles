@@ -1,0 +1,12 @@
+{
+	"High Contrast Mode": {
+		"scope": "css, scss",
+		"prefix": "hcm",
+		"body": [
+			"@media (forced-colors: active), (--ms-high-contrast: active) {",
+			"\t$1",
+			"}"
+		],
+		"description": "create high contrast mode media query"
+	}
+}
