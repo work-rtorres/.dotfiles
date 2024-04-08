@@ -145,5 +145,25 @@
 		"key": "tab",
 		"command": "-editor.action.inlineSuggest.commit",
 		"when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorTabMovesFocus && !suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+shift+1",
+		"command": "extension.textPastry.1toX",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+0",
+		"command": "extension.textPastry.0toX",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+r",
+		"command": "extension.textPastry.range",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "extension.textPastry.AtoX",
+		"when": "editorTextFocus"
 	}
 ]
