@@ -3,7 +3,7 @@
 	"explorer.confirmDragAndDrop": false,
 	"git.enableSmartCommit": true,
 	"explorer.confirmDelete": false,
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	// "terminal.integrated.defaultProfile.windows": "Git Bash",
 	"team.showWelcomeMessage": false,
 	"emmet.includeLanguages": {
 		"postcss": "css"
@@ -24,7 +24,7 @@
 	"editor.minimap.enabled": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"json.schemas": [],
-	"editor.fontFamily": "'JetBrains Mono', monospace",
+	"editor.fontFamily": "'JetBrains Mono','Comic Sans MS', 'JetBrains Mono', monospace",
 	"editor.fontLigatures": true,
 	"git.postCommitCommand": "push",
 	"telemetry.telemetryLevel": "off",
@@ -40,6 +40,9 @@
 		"editorBracketHighlight.foreground6": "#abb2c0",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
 	},
+	"[markdown]": {
+		"editor.formatOnSave": false
+	},
 	"editor.guides.bracketPairs": true,
 	"editor.guides.highlightActiveIndentation": true,
 	"git.ignoreRebaseWarning": true,
@@ -47,7 +50,6 @@
 	"emmet.showSuggestionsAsSnippets": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.cursorStyle": "block",
-	"diffEditor.ignoreTrimWhitespace": false,
 	"better-comments.tags": [
 		{
 			"tag": "!",
@@ -119,9 +121,6 @@
 	"files.autoSaveDelay": 5000,
 	"editor.wordWrap": "on",
 	"terminal.integrated.enableMultiLinePasteWarning": "never",
-	"[vue]": {
-		"editor.defaultFormatter": "Vue.volar"
-	},
 	"window.commandCenter": true,
 	"[typescript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
@@ -149,7 +148,7 @@
 	"prettier.htmlWhitespaceSensitivity": "css",
 	"prettier.vueIndentScriptAndStyle": true,
 	"prettier.printWidth": 80,
-	"i18n-ally.displayLanguage": "en",
+	"i18n-ally.displayLanguage": "fr",
 	"highlight-matching-tag.styles": {
 		"opening": {
 			"name": {
@@ -170,9 +169,9 @@
 	"powermode.presets": "flames",
 	"powermode.combo.location": "editor",
 	"powermode.combo.counterEnabled": "hide",
-	"material-icon-theme.folders.color": "#90a4ae",
+	"material-icon-theme.folders.color": "#42a5f5",
 	"gitlens.graph.minimap.enabled": false,
-	"glassit.alpha": 215,
+	"glassit.alpha": 230,
 	"svelte.enable-ts-plugin": true,
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -193,5 +192,23 @@
 	"editor.stickyScroll.enabled": true,
 	"workbench.editor.showTabs": "none",
 	"zenMode.showTabs": "none",
-	"workbench.colorTheme": "Catppuccin Frappé"
+	"workbench.iconTheme": "icons",
+	"material-icon-theme.hidesExplorerArrows": true,
+	"css.lint.boxModel": "warning",
+	"css.lint.duplicateProperties": "warning",
+	"css.lint.float": "warning",
+	"css.lint.hexColorLength": "warning",
+	"css.lint.universalSelector": "warning",
+	"html.format.indentInnerHtml": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"accessibility.dimUnfocused.enabled": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"gitlens.launchpad.indicator.enabled": false,
+	"workbench.colorTheme": "Houston",
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"markdown.preview.fontFamily": "'Open Dyslexic', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
 }
