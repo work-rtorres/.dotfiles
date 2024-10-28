@@ -1,0 +1,7 @@
+{
+	"Add csps link": {
+		"scope": "html, javascript, typescript, css, scss",
+		"prefix": "bsweb",
+		"body": "https://app.csps-efpc.gc.ca"
+	}
+}
