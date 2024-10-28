@@ -11,7 +11,7 @@
 		"scope": "javascript,typescript",
 		"prefix": "csw",
 		"body": [
-			"console.log($1);",
+			"console.warn($1);",
 		],
 		"description": "Warn output to console"
 	},
@@ -19,7 +19,7 @@
 		"scope": "javascript,typescript",
 		"prefix": "cse",
 		"body": [
-			"console.log($1);",
+			"console.error($1);",
 		],
 		"description": "Error output to console"
 	},
