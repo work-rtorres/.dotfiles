@@ -3,20 +3,22 @@
 	"explorer.confirmDragAndDrop": false,
 	"git.enableSmartCommit": true,
 	"explorer.confirmDelete": false,
-	// "terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"team.showWelcomeMessage": false,
 	"emmet.includeLanguages": {
 		"postcss": "css"
 	},
 	"git.confirmSync": false,
-
 	"editor.accessibilitySupport": "off",
 	"[json]": {
 		"editor.quickSuggestions": {
 			"strings": true
 		},
 		"editor.suggest.insertMode": "replace",
-		"gitlens.codeLens.scopes": ["document"]
+		"gitlens.codeLens.scopes": [
+			"document"
+		],
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"terminal.integrated.tabs.enabled": true,
 	"git.autofetch": true,
@@ -171,7 +173,7 @@
 	"powermode.combo.counterEnabled": "hide",
 	"material-icon-theme.folders.color": "#42a5f5",
 	"gitlens.graph.minimap.enabled": false,
-	"glassit.alpha": 230,
+	"glassit.alpha": 225,
 	"svelte.enable-ts-plugin": true,
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -194,9 +196,6 @@
 	"zenMode.showTabs": "none",
 	"workbench.iconTheme": "icons",
 	"material-icon-theme.hidesExplorerArrows": true,
-	"css.lint.boxModel": "warning",
-	"css.lint.duplicateProperties": "warning",
-	"css.lint.float": "warning",
 	"css.lint.hexColorLength": "warning",
 	"css.lint.universalSelector": "warning",
 	"html.format.indentInnerHtml": true,
@@ -205,10 +204,57 @@
 	"editor.cursorBlinking": "smooth",
 	"editor.cursorSmoothCaretAnimation": "explicit",
 	"gitlens.launchpad.indicator.enabled": false,
-	"workbench.colorTheme": "Houston",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.css-language-features"
 	},
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"markdown.preview.fontFamily": "'Open Dyslexic', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
+	"markdown.preview.fontFamily": "'Open Dyslexic', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+	"todo-tree.highlights.useColourScheme": false,
+	"todo-tree.highlights.defaultHighlight": {
+		"icon": "alert",
+		"type": "text",
+		"background": "#000",
+		"foreground": "#ff5e00",
+		"opacity": 50,
+		"iconColour": "#369"
+	},
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"icon": "check",
+			"type": "line"
+		},
+		"FIXME": {
+			"foreground": "#000",
+			"background": "#fff",
+			"iconColour": "#fff",
+			"gutterIcon": true
+		}
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"workbench.productIconTheme": "feather-vscode",
+	"css.lint.float": "warning",
+	"css.lint.important": "warning",
+	"scss.lint.float": "warning",
+	"scss.lint.important": "warning",
+	"css.lint.boxModel": "warning",
+	"css.lint.duplicateProperties": "error",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"powershell.promptToUpdatePowerShell": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"eslint.validate": [
+		"javascript"
+	]
 }
